@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb961674-8394-4da1-80ea-ecc4e7938e29" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mastodon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LandingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomeTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomeTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LandingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LandingTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-</find>
+      <find>https://files.mastodon.social/media_attachments/files/006/545/892/small/a4eeda43970d8266.jpeg</find>
+      <find>https://files.mastodon.social/media_attachments/files/006/545/917/small/ec5f2be4dec3c2fa.jpeg</find>
+      <find>2fa</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hMXG6XicPQhWdv9LK0IiWoG5Ab" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HomeTests.createTootValid">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTests.createTootValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mofit-services-ui-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
+      <option name="METHOD_NAME" value="createTootValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTests.uploadImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mastodon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
+      <option name="METHOD_NAME" value="uploadImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTests.uploadImageAssertSameImageShown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mastodon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
+      <option name="METHOD_NAME" value="uploadImageAssertSameImageShown" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTests.verifyCharCounterUpdateAndLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mastodon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
+      <option name="METHOD_NAME" value="verifyCharCounterUpdateAndLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="null.createTootValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="createTootValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HomeTests.uploadImage" />
+      <item itemvalue="JUnit.HomeTests.uploadImageAssertSameImageShown" />
+      <item itemvalue="JUnit.HomeTests.verifyCharCounterUpdateAndLimit" />
+      <item itemvalue="JUnit.null.createTootValid" />
+      <item itemvalue="JUnit.HomeTests.createTootValid" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HomeTests.createTootValid" />
+        <item itemvalue="JUnit.null.createTootValid" />
+        <item itemvalue="JUnit.HomeTests.verifyCharCounterUpdateAndLimit" />
+        <item itemvalue="JUnit.HomeTests.uploadImageAssertSameImageShown" />
+        <item itemvalue="JUnit.HomeTests.uploadImage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb961674-8394-4da1-80ea-ecc4e7938e29" name="Default" comment="" />
+      <created>1537266197124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537266197124</updated>
+      <workItem from="1537266199200" duration="8106000" />
+      <workItem from="1537276703241" duration="26590000" />
+      <workItem from="1538566090487" duration="2289000" />
+      <workItem from="1540284941283" duration="393000" />
+      <workItem from="1564566640901" duration="1445000" />
+      <workItem from="1564648539416" duration="627000" />
+      <workItem from="1565878774003" duration="1163000" />
+      <workItem from="1566206479390" duration="599000" />
+      <workItem from="1566803229752" duration="596000" />
+      <workItem from="1599821837202" duration="62000" />
+      <workItem from="1599822060396" duration="2595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="295" y="74" key="#HomeTests.createTootValid" timestamp="1599823268755">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="295" y="74" key="#HomeTests.createTootValid/0.23.1440.833@0.23.1440.833" timestamp="1599823268755" />
+    <state x="320" y="95" key="#Project_Structure" timestamp="1599822774582">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="320" y="95" key="#Project_Structure/0.23.1440.833@0.23.1440.833" timestamp="1599822774582" />
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom" timestamp="1599826287467">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1599823287862" />
+    <state width="1398" height="299" key="GridCell.Tab.0.center" timestamp="1599826287467">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1599823287861" />
+    <state width="1398" height="299" key="GridCell.Tab.0.left" timestamp="1599826287466">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287466" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1599823287861" />
+    <state width="1398" height="299" key="GridCell.Tab.0.right" timestamp="1599826287467">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1599823287862" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1599822748907">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="229" y="68" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1599822748907" />
+  </component>
+</project>
