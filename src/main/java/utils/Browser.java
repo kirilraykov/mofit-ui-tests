@@ -6,13 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
 
 import static org.apache.commons.lang.StringUtils.substringBetween;
 
@@ -22,26 +17,18 @@ public class Browser {
     private static WebDriver driver;
 
     public static WebDriver getDriver() {
-        final Properties prop = new Properties();
-        final String filename = "config.properties";
-        try (final InputStream input = Browser.class.getClassLoader()
-            .getResourceAsStream(filename)) {
-            prop.load(input);
-            if (prop.getProperty("browser").equals("firefox")) {
-                System
-                    .setProperty("webdriver.gecko.driver", "src//main//resources//geckodriver");
-                final FirefoxOptions options = new FirefoxOptions();
-                options.setCapability("marionette", false);
-                driver = new FirefoxDriver(options);
-            } else {
-                System.setProperty("webdriver.chrome.driver",
-                                   "src//main//resources//chromedriver");
-                driver = new ChromeDriver();
-            }
-        } catch (final IOException e) {
-            e.printStackTrace();
-        }
         return driver;
+    }
+
+    public static void initializeDriver() {
+        final String browser = System.getProperty("browser", "chrome");
+        if (browser.equals("firefox")) {
+            System.setProperty("webdriver.gecko.driver", "src//main//resources//geckodriver");
+            driver = new FirefoxDriver();
+        } else {
+            System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver");
+            driver = new ChromeDriver();
+        }
     }
 
     public static void closeBrowser() {
@@ -76,11 +63,6 @@ public class Browser {
         return element.getAttribute("href");
     }
 
-
-    public static boolean isElementPresent(final WebElement element) {
-        return element.isDisplayed();
-    }
-
     public static boolean isElementEnabled(final WebElement element) {
         return element.isEnabled();
     }
@@ -105,5 +87,14 @@ public class Browser {
 
     public static void injectJavaScript(final String js) {
         ((JavascriptExecutor) driver).executeScript(js);
+    }
+
+    public static boolean isElementPresent(WebElement element) {
+        try {
+            element.isDisplayed();
+            return true;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
     }
 }

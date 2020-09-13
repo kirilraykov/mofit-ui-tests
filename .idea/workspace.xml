@@ -2,23 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb961674-8394-4da1-80ea-ecc4e7938e29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/loginWithShownPassword20200914124933.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/MofitConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/myReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mastodon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LandingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomeTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geckodriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomeTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomeTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LandingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LandingTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LandingTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,27 +76,50 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HomeTests.createTootValid">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTests.createTootValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mofit-services-ui-tests" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginValidUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mofit-services-ui-tests" />
       <extension name="coverage">
         <pattern>
@@ -100,16 +128,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
-      <option name="METHOD_NAME" value="createTootValid" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginValidUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTests.uploadImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mastodon" />
+    <configuration name="LoginTests.loginWithShownPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mofit-services-ui-tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -117,42 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
-      <option name="METHOD_NAME" value="uploadImage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTests.uploadImageAssertSameImageShown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mastodon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
-      <option name="METHOD_NAME" value="uploadImageAssertSameImageShown" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeTests.verifyCharCounterUpdateAndLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mastodon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeTests" />
-      <option name="METHOD_NAME" value="verifyCharCounterUpdateAndLimit" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginWithShownPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -166,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="null.createTootValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mofit-services-ui-tests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -175,11 +169,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="createTootValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mofit-services-ui-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginValidUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HomeTests.uploadImage" />
-      <item itemvalue="JUnit.HomeTests.uploadImageAssertSameImageShown" />
-      <item itemvalue="JUnit.HomeTests.verifyCharCounterUpdateAndLimit" />
-      <item itemvalue="JUnit.null.createTootValid" />
-      <item itemvalue="JUnit.HomeTests.createTootValid" />
+      <item itemvalue="JUnit.LoginTests" />
+      <item itemvalue="JUnit.LoginTests.loginWithShownPassword" />
+      <item itemvalue="JUnit.LoginTests.loginValidUser" />
+      <item itemvalue="TestNG.LoginTests.loginValidUser" />
+      <item itemvalue="TestNG.LoginTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HomeTests.createTootValid" />
-        <item itemvalue="JUnit.null.createTootValid" />
-        <item itemvalue="JUnit.HomeTests.verifyCharCounterUpdateAndLimit" />
-        <item itemvalue="JUnit.HomeTests.uploadImageAssertSameImageShown" />
-        <item itemvalue="JUnit.HomeTests.uploadImage" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.loginValidUser" />
+        <item itemvalue="JUnit.LoginTests.loginValidUser" />
+        <item itemvalue="JUnit.LoginTests.loginWithShownPassword" />
+        <item itemvalue="JUnit.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +244,7 @@
       <workItem from="1566803229752" duration="596000" />
       <workItem from="1599821837202" duration="62000" />
       <workItem from="1599822060396" duration="2595000" />
+      <workItem from="1599858141268" duration="14559000" />
     </task>
     <servers />
   </component>
@@ -249,29 +263,75 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="320" y="95" key="#Project_Structure/0.23.1440.833@0.23.1440.833" timestamp="1599822774582" />
-    <state width="1398" height="299" key="GridCell.Tab.0.bottom" timestamp="1599826287467">
+    <state x="184" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599986540366">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="184" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1599986540366" />
+    <state x="440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600028351542">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="440" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.833@0.23.1440.833" timestamp="1600028351542" />
+    <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1600034476181">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1599823287862" />
-    <state width="1398" height="299" key="GridCell.Tab.0.center" timestamp="1599826287467">
+    <state width="1398" height="273" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1600034476181" />
+    <state width="1398" height="273" key="GridCell.Tab.0.center" timestamp="1600034476180">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1398" height="299" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1599823287861" />
-    <state width="1398" height="299" key="GridCell.Tab.0.left" timestamp="1599826287466">
+    <state width="1398" height="273" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1600034476180" />
+    <state width="1398" height="273" key="GridCell.Tab.0.left" timestamp="1600034476179">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1398" height="299" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287466" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1599823287861" />
-    <state width="1398" height="299" key="GridCell.Tab.0.right" timestamp="1599826287467">
+    <state width="1398" height="273" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1600034476179" />
+    <state width="1398" height="273" key="GridCell.Tab.0.right" timestamp="1600034476180">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1398" height="299" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1599826287467" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1599823287862" />
-    <state x="229" y="68" key="SettingsEditor" timestamp="1599822748907">
+    <state width="1398" height="273" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1600034476180" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1600029597197">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
-    <state x="229" y="68" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1599822748907" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.833@0.23.1440.833" timestamp="1600029597197" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1600029597196">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.833@0.23.1440.833" timestamp="1600029597196" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1600029597196">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.833@0.23.1440.833" timestamp="1600029597196" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1600029597197">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.833@0.23.1440.833" timestamp="1600029597197" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1600033237427">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="229" y="68" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1600033237427" />
+    <state x="100" y="123" width="1240" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600031436840">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="100" y="123" width="1240" height="633" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.833@0.23.1440.833" timestamp="1600031436840" />
+    <state x="100" y="123" width="1240" height="633" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600031436840">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="100" y="123" width="1240" height="633" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.833@0.23.1440.833" timestamp="1600031436840" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/Browser.java</url>
+          <line>18</line>
+          <properties class="utils.Browser" method="getDriver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
