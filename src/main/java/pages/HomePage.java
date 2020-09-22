@@ -15,7 +15,7 @@ public class HomePage {
     @FindBy(className = "profile-link")
     private WebElement profileLink;
 
-    @FindBy(xpath = "//*[contains(text(), ' Sign Out')]")
+    @FindBy(id = "signOutButton")
     private WebElement signOutButton;
 
     public HomePage() {

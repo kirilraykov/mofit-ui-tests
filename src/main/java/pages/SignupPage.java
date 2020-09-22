@@ -8,36 +8,40 @@ import utils.Browser;
 
 import static utils.Browser.getDriver;
 
-public class LoginPage {
+public class SignupPage {
 
-    private final Logger logger = Logger.getLogger(LoginPage.class);
+    private final Logger logger = Logger.getLogger(SignupPage.class);
 
-    @FindBy(id = "login-email")
+    @FindBy(id = "signup-email")
     private WebElement emailField;
 
     @FindBy(id = "password")
     private WebElement passwordField;
 
-    @FindBy(className = "loginButton")
-    private WebElement loginButton;
-
-    @FindBy(xpath = "//*[contains(text(), 'Sign Up')]")
-    private WebElement signupButton;
-
-    @FindBy(className = "alert-danger")
-    private WebElement errorMessage;
+    @FindBy(id = "passwordConfirm")
+    private WebElement passwordConfirmField;
 
     @FindBy(id = "passwordEye")
     private WebElement passwordEye;
 
-    public LoginPage() {
+    @FindBy(id = "passwordConfirmEye")
+    private WebElement passwordConfirmEye;
+
+    @FindBy(id = "signUpFormButton")
+    private WebElement signupButton;
+
+    @FindBy(className = "badge-warning")
+    private WebElement errorMessage;
+
+    public SignupPage() {
         PageFactory.initElements(getDriver(), this);
     }
 
     public void enterEmailAndPassword(final String username, final String password) {
-        logger.info("Login as " + username);
+        logger.info("Signup as " + username);
         Browser.writeText(emailField, username);
         Browser.writeText(passwordField, password);
+        Browser.writeText(passwordConfirmField, password);
     }
 
     public String getPasswordFieldText() {
@@ -51,14 +55,14 @@ public class LoginPage {
         Browser.clickElement(passwordEye);
     }
 
-    public HomePage login() {
-        Browser.clickElement(loginButton);
-        return new HomePage();
+    public void showConfirmPassword() {
+        logger.info("Showing confirm password");
+        Browser.clickElement(passwordConfirmEye);
     }
 
-    public SignupPage clickSignupButton() {
+    public DashboardPage signup() {
         Browser.clickElement(signupButton);
-        return new SignupPage();
+        return new DashboardPage();
     }
 
     public String getErrorMessage() {
